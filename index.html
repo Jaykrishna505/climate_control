@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakeview Climate Controlled Storage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Lakeview Climate Controlled Storage</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#safety">Safety</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="home-container">
+            <h2>Your Secure, Climate-Controlled Storage Solution</h2>
+            <p>We provide climate-controlled, affordable, and secure storage units for all your needs.</p>
+            <h3 class="store-details">Lakeview Climate Controlled Storage</h3>
+            <p class="store-details">4202 Martin St S, Cropwell, AL 35054</p>
+            <p class="store-details">Phone: (205) 338-3344</p>
+            <!-- Google Maps iframe -->
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3362.897114027959!2d-86.28054002444486!3d33.57383288073037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88891de35c4bffb3%3A0x1e5b1e3d978d5c32!2s4202%20Martin%20St%20S%2C%20Cropwell%2C%20AL%2035054!5e0!3m2!1sen!2sus!4v1694661731463!5m2!1sen!2sus" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <!-- Storage Units -->
+            <div class="unit">
+                <img src="storage-unit-10x10.png" alt="10x10 Storage Unit">
+                <div class="unit-info">
+                    <h3>10×10×8 Storage Unit</h3>
+                    <p>100 Sq. Ft - Climate Controlled</p>
+                </div>
+            </div>
+            <div class="unit">
+                <img src="storage-unit-10x15.png" alt="10x15 Storage Unit">
+                <div class="unit-info">
+                    <h3>10×15×8 Storage Unit</h3>
+                    <p>150 Sq. Ft - Climate Controlled</p>
+                </div>
+            </div>
+            <div class="unit">
+                <img src="storage-unit-10x20.png" alt="10x20 Storage Unit">
+                <div class="unit-info">
+                    <h3>10×20×8 Storage Unit</h3>
+                    <p>200 Sq. Ft - Climate Controlled</p>
+                </div>
+            </div>
+            <div class="unit">
+                <img src="storage-unit-10x25.png" alt="10x25 Storage Unit">
+                <div class="unit-info">
+                    <h3>10×25×8 Storage Unit</h3>
+                    <p>250 Sq. Ft - Climate Controlled</p>
+                </div>
+            </div>
+            <div class="unit">
+                <img src="storage-unit-10x30.png" alt="10x30 Storage Unit">
+                <div class="unit-info">
+                    <h3>10×30×8 Storage Unit</h3>
+                    <p>300 Sq. Ft - Climate Controlled</p>
+                </div>
+            </div>
+
+            <!-- Boat storage and boat launch -->
+            <div class="unit">
+                <img src="boat-storage.png" alt="Boat Storage">
+                <div class="unit-info">
+                    <h3>Boat Storage</h3>
+                    <p>Safe and secure storage for boats of all sizes.</p>
+                </div>
+            </div>
+            <div class="unit">
+                <img src="boat-launch.png" alt="Boat Launch">
+                <div class="unit-info">
+                    <h3>Boat Launch</h3>
+                    <p>Convenient boat launch services available for storage customers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Safety Section -->
+    <section id="safety">
+        <h2>Safety is Key</h2>
+        <div class="safety-content">
+            <img src="safety-icon.png" alt="Safety Icon"> <!-- Add your safety icon here -->
+            <p>
+                At Lakeview Climate Controlled Storage, we prioritize the safety and security of your belongings. 
+                Our climate-controlled self-storage units, coupled with CCTV surveillance and gated entry, offer 
+                the ultimate peace of mind for all your storage needs. Contact us today to reserve your unit and 
+                experience the convenience and security of our premium self-storage facility.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="sendEmail.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Phone:</label> <!-- Added phone number field -->
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Lakeview Climate Controlled Storage</p>
+    </footer>
+</body>
+</html>
